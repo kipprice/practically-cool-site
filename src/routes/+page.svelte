@@ -18,16 +18,14 @@
 
 	<div class="flex min-h-0 flex-grow flex-col overflow-x-visible overflow-y-auto px-6">
 		<h2 class="stickyHeader">Apps</h2>
-		<div
-			class="mt-4 grid w-full grow grid-cols-1 gap-4 overflow-visible md:grid-cols-2 lg:grid-cols-3"
-		>
+		<div class="mt-4 grid w-full grow grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 			<a class="card text-[#136F63]" href="https://mossyvibes.com">
 				<img
 					src="/mossy-vibes.png"
 					alt="screenshot of Mossy Vobes, a reading based meditation app"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">Mossy Vibes</div>
+				<h3 class="cardTitle">Mossy Vibes</h3>
 				<p>Meditation for busy people</p>
 			</a>
 			<a class="card text-[#116A91]" href="https://bookdrop.io">
@@ -36,7 +34,7 @@
 					alt="screenshot of Book Drop, a library-management tool for books and more"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">Book Drop</div>
+				<h3 class="cardTitle">Book Drop</h3>
 				<p>Organize your library</p>
 			</a>
 			<a class="card text-[#324472]" href="https://ummm.kipprice.com">
@@ -45,7 +43,7 @@
 					alt="screenshot of Ummm, a visual UML editor that can generate code"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">Ummm</div>
+				<h3 class="cardTitle">Ummm</h3>
 				<p>Generate code from UML</p>
 			</a>
 			<a class="card text-[#D65108]" href="https://tv-roulette.netlify.app">
@@ -54,24 +52,18 @@
 					alt="screenshot of TV Roulette, a tool that can suggest a random episode to watch"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">TV Roulette</div>
+				<h3 class="cardTitle">TV Roulette</h3>
 				<p>Random episode suggester</p>
 			</a>
-			<div class="card text-rose-800">
-				<div class="cardTitle">Monochrome</div>
-				<p>Mobile mystery night</p>
-				{@render comingSoon()}
-			</div>
-			<div class="card text-black">
-				<div class="cardTitle">Spindle Codex</div>
-				<p>Facilitate Spindle Games</p>
-				{@render comingSoon()}
-			</div>
-			<div class="card text-[oklch(0.65_0.2471_9.21)]">
-				<div class="cardTitle">Pizzazzium</div>
-				<p>Coordinate classes and lessons</p>
-				{@render comingSoon()}
-			</div>
+			<a class="card text-[#3A10E5]" href="https://github.com/kipprice/github-search-extension">
+				<img
+					src="/gh-search.png"
+					alt="screenshot of GitHub Search, a Chrome extension that allows you to search GitHub"
+					class="max-h-48 rounded-md"
+				/>
+				<h3 class="cardTitle">GitHub Search</h3>
+				<p>Find a PR anywhere</p>
+			</a>
 		</div>
 
 		<h2 class="stickyHeader">Libraries</h2>
@@ -82,7 +74,7 @@
 					alt="screenshot of Flow MD, a library that can convert markdown into flow charts"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">Flow MD</div>
+				<h3 class="cardTitle">Flow MD</h3>
 				<p>Build dynamic flows in React</p>
 			</a>
 			<a class="card text-[#10162F]" href="https://kipprice.github.io/markdown-matrix/">
@@ -91,13 +83,32 @@
 					alt="screenshot of Markdown to Matrix, a library that can convert markdown into interactive matrices"
 					class="max-w-72 rounded-md"
 				/>
-				<div class="cardTitle">Markdown to Matrix</div>
+				<h3 class="cardTitle">Markdown to Matrix</h3>
 				<p>Build interactable matrices with Markdown</p>
 			</a>
 			<a class="card" href="https://github.com/kipprice/toolkip_module">
-				<div class="cardTitle">Toolkip</div>
+				<h3 class="cardTitle">Toolkip</h3>
 				<p>Collection of various tools and helpers in typescript</p>
 			</a>
+		</div>
+
+		<h2 class="stickyHeader">Underway</h2>
+		<div class="mt-4 grid w-full grow grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+			<div class="card text-rose-800">
+				<h3 class="cardTitle">Monochrome</h3>
+				<p>Mobile mystery night</p>
+				{@render comingSoon()}
+			</div>
+			<div class="card text-black">
+				<h3 class="cardTitle">Spindle Codex</h3>
+				<p>Facilitate Spindle Games</p>
+				{@render comingSoon()}
+			</div>
+			<div class="card text-[oklch(0.65_0.2471_9.21)]">
+				<h3 class="cardTitle">Pizzazzium</h3>
+				<p>Coordinate classes and lessons</p>
+				{@render comingSoon()}
+			</div>
 		</div>
 	</div>
 </div>
@@ -163,9 +174,6 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		margin-left: -1rem;
-		padding-inline: 1rem;
 		background-color: rgba(255, 255, 255, 0.9);
-		width: calc(100% + 2rem);
 	}
 </style>

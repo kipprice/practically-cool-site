@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 
+
 body .rootContainer {
+    font-family: 'Source Sans Pro', monospace;
     background-image: url('/dot-grid.webp');
     background-repeat: repeat;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald Variable', sans-serif;
 }
