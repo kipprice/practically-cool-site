@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+body .rootContainer {
+    background-image: url('/dot-grid.webp');
+    background-repeat: repeat;
+}
