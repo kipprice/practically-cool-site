@@ -28,6 +28,21 @@
 				<h3 class="cardTitle">Mossy Vibes</h3>
 				<p>Meditation for busy people</p>
 			</a>
+			<a class="card text-[#000]" href="https://spindle.practically.cool">
+				<img src="/spindle.png" alt="screenshot of Spindle" class="max-w-72 rounded-md" />
+				<h3 class="cardTitle">Spindle Campaign Manager</h3>
+				<p>Run TTRPG games using the Spindle framework</p>
+			</a>
+			<a class="card text-[#000]" href="https://hf.practically.cool">
+				<img
+					src="/hocus-focus.png"
+					alt="screenshot of hocus focus, a dynamic music generator"
+					class="max-w-72 rounded-md"
+				/>
+				<h3 class="cardTitle">hocus focus</h3>
+				<p>loop mixer and editor with a little bit of magic</p>
+			</a>
+
 			<a class="card text-[#116A91]" href="https://bookdrop.io">
 				<img
 					src="/book-drop.png"
@@ -99,12 +114,7 @@
 				<p>Mobile mystery night</p>
 				{@render comingSoon()}
 			</div>
-			<div class="card text-black">
-				<h3 class="cardTitle">Spindle Codex</h3>
-				<p>Facilitate Spindle Games</p>
-				{@render comingSoon()}
-			</div>
-			<div class="card text-[oklch(0.65_0.2471_9.21)]">
+			<div class="card text-[oklch(0.85_0.1378_182.15)]">
 				<h3 class="cardTitle">Pizzazzium</h3>
 				<p>Coordinate classes and lessons</p>
 				{@render comingSoon()}
