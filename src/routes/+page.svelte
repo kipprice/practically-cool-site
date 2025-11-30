@@ -42,6 +42,15 @@
 				<h3 class="cardTitle">hocus focus</h3>
 				<p>loop mixer and editor with a little bit of magic</p>
 			</a>
+			<a class="card text-rose-800" href="https://monochromatic.app">
+				<img
+					src="/monochrome.png"
+					alt="screenshot of monochrome, a digital murder mystery game"
+					class="max-w-72 rounded-md"
+				/>
+				<h3 class="cardTitle">Monochrome</h3>
+				<p>Mobile mystery night</p>
+			</a>
 
 			<a class="card text-[#116A91]" href="https://bookdrop.io">
 				<img
@@ -109,11 +118,6 @@
 
 		<h2 class="stickyHeader">Underway</h2>
 		<div class="mt-4 grid w-full grow grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-			<div class="card text-rose-800">
-				<h3 class="cardTitle">Monochrome</h3>
-				<p>Mobile mystery night</p>
-				{@render comingSoon()}
-			</div>
 			<div class="card text-[oklch(0.85_0.1378_182.15)]">
 				<h3 class="cardTitle">Pizzazzium</h3>
 				<p>Coordinate classes and lessons</p>
