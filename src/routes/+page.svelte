@@ -11,7 +11,7 @@
 	<h1>Practically Cool</h1>
 	<p>
 		A collection of interesting things created by <a
-			href="https://kipprice.dev"
+			href="https://kipprice.com"
 			class="font-semibold underline">Kip Price</a
 		>
 	</p>
