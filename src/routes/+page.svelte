@@ -33,7 +33,7 @@
 				<h3 class="cardTitle">Spindle Campaign Manager</h3>
 				<p>Run TTRPG games using the Spindle framework</p>
 			</a>
-			<a class="card text-[#000]" href="https://hf.practically.cool">
+			<a class="card text-[#000]" href="https://hf.practically.cool/u/kip">
 				<img
 					src="/hocus-focus.png"
 					alt="screenshot of hocus focus, a dynamic music generator"
