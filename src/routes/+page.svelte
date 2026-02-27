@@ -39,7 +39,7 @@
 					alt="screenshot of hocus focus, a dynamic music generator"
 					class="max-w-72 rounded-md"
 				/>
-				<h3 class="cardTitle">hocus focus</h3>
+				<h3 class="cardTitle">infinite audio</h3>
 				<p>loop mixer and editor with a little bit of magic</p>
 			</a>
 			<a class="card text-rose-800" href="https://monochromatic.app">
